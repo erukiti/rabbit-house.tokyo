@@ -1,0 +1,30 @@
+languageCode = "ja"
+title = "東京ラビットハウス"
+baseurl = "https://rabbit-house.tokyo/"
+style = "default"
+hasCJKLanguage = true
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "erukiti"
+    email = "erukiti@gmail.com"
+    logo = "img/logo.png"
+    about_us = "東京ラビットハウス"
+    copyright = "Copyright (c) 2017, Tokyo Rabbit House; all rights reserved."
+    date_format = "2006/01/02"
+
+[[params.menu]]
+    name = "同人誌"
+    url  = "/books/"
+    weight = 1
+
+[[params.menu]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 3
+
