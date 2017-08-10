@@ -7,8 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright (c) 2017, Tokyo Rabbit House; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 21:32:36 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Aug 2017 23:46:16 +0900</lastBuildDate>
     <atom:link href="https://rabbit-house.tokyo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>javascript</title>
+      <link>https://rabbit-house.tokyo/books/javascript/</link>
+      <pubDate>Thu, 10 Aug 2017 23:46:16 +0900</pubDate>
+      
+      <guid>https://rabbit-house.tokyo/books/javascript/</guid>
+      <description>&lt;p&gt;ほんとすみません、waterslide まだ未完成というか、鋭意作成中です！！！！！！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;@erukiti&#34;&gt;https://twitter.com/erukiti&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;メール: erukiti&lt;!-- --&gt;+trb@&lt;!-- --&gt;gmail.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;連絡いただければ、できる限り環境構築のご相談とか受けます。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>技術書典2でModern JavaScriptという本を頒布しました</title>
@@ -175,7 +192,7 @@
       <guid>https://rabbit-house.tokyo/books/modern-javascript/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;2017/4/9 初版発行 (技術書典2)&lt;/li&gt;
-&lt;li&gt;6月をめどに商業出版の話が進行中です&lt;/li&gt;
+&lt;li&gt;2017/8/11 商業版として加筆・修正・校正したものを、&lt;a href=&#34;http://amzn.to/2vSjG18&#34;&gt;最新JavaScript開発～ES2017対応モダンプログラミング (技術書典シリーズ（NextPublishing）) &lt;/a&gt;という形で出しました。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
