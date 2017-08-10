@@ -14,7 +14,7 @@ hasCJKLanguage = true
     date_format = "2006/01/02"
 
 [[params.menu]]
-    name = "同人誌"
+    name = "同人誌・書籍"
     url  = "/books/"
     weight = 1
 

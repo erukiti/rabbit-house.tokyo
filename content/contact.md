@@ -7,4 +7,4 @@ tags = []
 +++
 
 * Twitter: [https://twitter.com/erukiti](@erukiti)
-+ メール: erukiti<!-- -->+trb@<!-- -->gmail.com
+* メール: erukiti<!-- -->+trb@<!-- -->gmail.com
