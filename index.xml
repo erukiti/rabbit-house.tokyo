@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright (c) 2017, Tokyo Rabbit House; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Aug 2017 23:46:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2017 19:27:57 +0900</lastBuildDate>
     <atom:link href="https://rabbit-house.tokyo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>javascript ast</title>
+      <link>https://rabbit-house.tokyo/books/javascript-ast/</link>
+      <pubDate>Fri, 15 Sep 2017 19:27:57 +0900</pubDate>
+      
+      <guid>https://rabbit-house.tokyo/books/javascript-ast/</guid>
+      <description>
+
+&lt;h2 id=&#34;javascript-ast本-仮&#34;&gt;JavaScript AST本(仮)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017/10/22 技術書典3 予定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;コンセプト&#34;&gt;コンセプト&lt;/h3&gt;
+
+&lt;p&gt;Babelに代表されるようなトランスパイラは、実は誰でも簡単に作れます(もちろん機能による)。これはトランスパイラなどと言ったソースコードをいじるための仕組み(AST)と共通の枠組み、つまりエコシステムが充実しているためです。&lt;/p&gt;
+
+&lt;p&gt;AST(抽象構文木)は、たとえばコンパイラが文脈を解析して作るツリー構造で、普通のコンパイラでは内部だけで使われるか、APIがあったとしても非公開APIだったり、ドキュメントの用意されないAPIのように、一般ユーザーが軽々しく使えないケースが多いですが、JavaScriptでは他の言語とは違いエコシステムができるくらいASTがオープンで共通化されたものなのです。それゆえにカジュアルにソースコードをいじることが可能です。&lt;/p&gt;
+
+&lt;p&gt;ASTというと、なんかJavaScriptの深淵のように思える人もいるかもしれませんが、今回は、ASTをカジュアルにいじるというコンセプトで、ASTの説明、基礎、応用など、誰でも簡単にASTを扱えるようにするという本になる予定です。&lt;/p&gt;
+
+&lt;p&gt;参考までに、&lt;a href=&#34;http://qiita.com/erukiti/items/c7bd70758b86fe7956b1&#34;&gt;BabylonでJavaScript AST事始め&lt;/a&gt;という記事をQiitaに書いてあるので良かったら読んでください。感想などいただけましたら、本の内容にフィードバック出来たりもすると思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;想定読者&#34;&gt;想定読者&lt;/h3&gt;
+
+&lt;p&gt;Node.jsを使ってツールを作りたいと思ってる人。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>最新JavaScript開発 サポートページ</title>
