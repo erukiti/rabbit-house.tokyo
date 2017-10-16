@@ -25,6 +25,10 @@
 &lt;li&gt;2017/10/16 &lt;a href=&#34;https://rabbit-house.tokyo/ast-book-sample-10-16-rev3.pdf&#34;&gt;試供用PDF 10-16 rev3&lt;/a&gt;を頒布します。第二章まで載っています。&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;誰か売り子を手伝っていただけないでしょうか？一日中ブースにいるとトイレにいくタイミングが無くてしんどいので、お手伝いできる方いたらTwitter &lt;a href=&#34;https://twitter.com/erukiti&#34;&gt;@erukiti&lt;/a&gt; にでもご連絡ください。&lt;/p&gt;
+
+&lt;p&gt;あと前回の経験上おそい時間だと売り切れ完売の可能性が高そうなので、取り置き希望の人はこれまた Twitter などでご連絡ください。&lt;/p&gt;
+
 &lt;h3 id=&#34;コンセプト&#34;&gt;コンセプト&lt;/h3&gt;
 
 &lt;p&gt;この本はJavaScript ASTの入門書です。ASTとはソースコードを扱いやすいように加工されたデータ構造のことです。ASTを操作すると、ソースコードの変更・削除・挿入や解析ができます。JavaScriptにおいてはASTは難しいものではありません。ASTを使ってお手軽にJavaScriptをハックできるツールを作ってみましょう。&lt;/p&gt;
