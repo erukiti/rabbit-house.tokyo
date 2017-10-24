@@ -11,18 +11,18 @@
     <atom:link href="https://rabbit-house.tokyo/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>簡単JavaScript入門</title>
+      <title>簡単JavaScript AST入門</title>
       <link>https://rabbit-house.tokyo/books/javascript-ast/</link>
       <pubDate>Fri, 15 Sep 2017 19:27:57 +0900</pubDate>
       
       <guid>https://rabbit-house.tokyo/books/javascript-ast/</guid>
       <description>
 
-&lt;h2 id=&#34;簡単javascript入門&#34;&gt;簡単JavaScript入門&lt;/h2&gt;
+&lt;h2 id=&#34;簡単javascript-ast入門&#34;&gt;簡単JavaScript AST入門&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2017/10/22 第1版 技術書典3 頒布予定 (80P前後, 1000円)&lt;/li&gt;
-&lt;li&gt;2017/10/17 &lt;a href=&#34;https://rabbit-house.tokyo/ast-book-sample-10-17-rev2.pdf&#34;&gt;試供用PDF 10-17 rev2&lt;/a&gt;を配布しています。第二章まで載っています。&lt;/li&gt;
+&lt;li&gt;2017/10/24 &lt;a href=&#34;https://rabbit-house.tokyo/ast-book-sample.pdf&#34;&gt;試供用PDF最新版&lt;/a&gt;を配布しています。第三章まで載っています。&lt;/li&gt;
+&lt;li&gt;2017/10/22 第1版 技術書典3 頒布 (80P, 1000円)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;誰か売り子を手伝っていただけないでしょうか？一日中ブースにいるとトイレにいくタイミングが無くてしんどいので、お手伝いできる方いたらTwitter &lt;a href=&#34;https://twitter.com/erukiti&#34;&gt;@erukiti&lt;/a&gt; にでもご連絡ください。&lt;/p&gt;

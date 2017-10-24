@@ -7,8 +7,220 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright (c) 2017, Tokyo Rabbit House; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 21:32:36 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2017 12:21:04 +0900</lastBuildDate>
     <atom:link href="https://rabbit-house.tokyo/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>技術書典3参加レポート (ノウハウ多め)</title>
+      <link>https://rabbit-house.tokyo/blog/techbookfest3/</link>
+      <pubDate>Tue, 24 Oct 2017 12:21:04 +0900</pubDate>
+      
+      <guid>https://rabbit-house.tokyo/blog/techbookfest3/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://techbookfest.org/event/tbf03&#34;&gt;技術書典３&lt;/a&gt;に&lt;a href=&#34;https://techbookfest.org/event/tbf03/circle/5099247972122624&#34;&gt;東京ラビットハウス&lt;/a&gt;として参加して、&lt;a href=&#34;https://rabbit-house.tokyo/books/javascript-ast/&#34;&gt;簡単JavaScript AST入門&lt;/a&gt;という本を頒布してきました。&lt;/p&gt;
+
+&lt;p&gt;買ってくださった皆さん、立ち寄ってくださった皆さん、協力してくださった皆さん、同人誌を書いている同志の皆さん、そして運営の皆さんに感謝申し上げます。ほんとありがとうございます。技術書典3もとても良いイベントでした。&lt;/p&gt;
+
+&lt;p&gt;今回は少しでも皆さんの参考になればと思い、参加レポートを書きました。&lt;/p&gt;
+
+&lt;h2 id=&#34;どんな本&#34;&gt;どんな本？&lt;/h2&gt;
+
+&lt;p&gt;ASTというのはコンパイラの内部表現で、ソースコードを扱いやすくしたツリー構造のデータです。他の言語だと利用者には縁の薄いものですが、JavaScriptの世界では「さまざまなウェブブラウザで動作するJavaScript」をはき出すために、ソースをソースに変換するトランスパイルという技術が発展したため、ASTを扱うエコシステムが発達したのでそれを解説した本です。&lt;/p&gt;
+
+&lt;p&gt;JSならASTを使ってカジュアルにメタプログラミング(ソースコードを変換)、あるいは解析すら簡単にできるのです。(というよりある程度の解析はツールが勝手にやってくれる)&lt;/p&gt;
+
+&lt;p&gt;詳しくは&lt;a href=&#34;https://rabbit-house.tokyo/ast-book-sample.pdf&#34;&gt;最新試供品&lt;/a&gt; (第三章まで含んだ太っ腹版です) を読んでみてください。要望が多いようでしたら、電子版の頒布も考えます。&lt;/p&gt;
+
+&lt;h2 id=&#34;リザルト&#34;&gt;リザルト&lt;/h2&gt;
+
+&lt;p&gt;今回200部(予備込み206)刷って150以上捌けました。(正確な数字は荷物が届いて無くて調べてないんだけど、よく考えると金額の増減で調べられるんだよなぁ…忘れてた)。サークルマイページでの被チェック数は最終105でした (前回は108)。&lt;/p&gt;
+
+&lt;p&gt;CloudGarageさんの次のリリースパーティーとかに持ち込んだりする為に今回はわざと少し多めに残してる感じです。なので当日に頒布しようと思ってた数-1は捌くことが出来ました。(あと1部売れてたら、完売と宣言するつもりだったｗ)&lt;/p&gt;
+
+&lt;h3 id=&#34;部数について&#34;&gt;部数について&lt;/h3&gt;
+
+&lt;p&gt;前回の技術書典2は紙を100部、電子を100用意してました。紙は12時半に完売。そのあとは電子版を頒布してましたが、紙を望む声がものすごく多かったため今回は全部紙にしました。(前回は経験値が少なくて何部売れるかの予想精度が低かったので少なめに印刷していました。)&lt;/p&gt;
+
+&lt;p&gt;ちなみにその時の100という根拠ですが、技術書典1に知人のサークルに委託でElectron本を頒布したところ30部出たので、技術書典2では会場の規模の変化や内容をきっちり作り込んだこと、テーマのキャッチー度合いと、場所チート(会場入り口、真っ正面)があったので、100は問題なく完売できるだろうし、電子は低コストだったので売れ残ってもいいや位の感覚でした。&lt;/p&gt;
+
+&lt;p&gt;今回の200というのは、前回の経験、宣伝ツイートの食いつき具合、被チェック数の伸び具合、前回のModern JavaScriptや商業版の最新JavaScriptでの経験をつぎ込んでることなどから、少なくとも半分の100は前回と同じかそれ以上のペースで売れるなーという確信がありました。&lt;/p&gt;
+
+&lt;p&gt;テーマが多少ニッチではあるので、その後どうなるかの予想がまったくつきませんでした。と言っても、100頒布できればペイはできるようにしてありましたし、最悪余ったらComic ZINさんに委託する気満々でした。&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;なんど歴史を修正しても技術書典が雨になってしまう。。。&lt;/p&gt;&amp;mdash; ふじよし (@Fuji_Yos) &lt;a href=&#34;https://twitter.com/Fuji_Yos/status/921884654478565376?ref_src=twsrc%5Etfw&#34;&gt;2017年10月21日&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#技術書典&lt;/a&gt; タイムラインでちらっとみた「だめだ！いくらやりなおしても技術書典当日に雨が降ってしまう」みたいなツイートがツボにはまってしまった。何度もやり直してる僕と同じ境遇の人がいるのかな😋&lt;/p&gt;&amp;mdash; mhidaka (@mhidaka) &lt;a href=&#34;https://twitter.com/mhidaka/status/921985289085599744?ref_src=twsrc%5Etfw&#34;&gt;2017年10月22日&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;今回はお二人ほど、何回もタイムリープして天候が変わるようにチャレンジしていたようですが、残念ながら何回やっても雨になってしまうらしく、台風という状況で技術書典2よりも来場者が少ない状況でした。そういう意味では保険をかけた状態で良かったです。最初300刷るのも考慮に入れてたんですが、300だとさすがに悲惨な事になってました。晴れてたらワンチャン？&lt;/p&gt;
+
+&lt;h2 id=&#34;執筆の話&#34;&gt;執筆の話&lt;/h2&gt;
+
+&lt;p&gt;当初の予定では9月中に書き終わるつもりでした。で、10月7日が最終締め切りのつもりでした。色々あって9月と10月初めがほとんどつぶれてしまったので、執筆開始が10/7でした。まぁそれまでに技術調査はある程度済ませてはいたんですけど、それでもまだ技術調査の半分くらいが残ってました。まぁ大まかな全体像は既にもくもく執筆会で考えられてたんですけどね。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;日付&lt;/th&gt;
+&lt;th&gt;進捗&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;序章と第一章 (16P)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;23P&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;37P&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;54P+表紙&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;73P&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;71P (構成変更やらなんやらｗ)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;この進捗ですが、大量のTODOを残した超絶おおざっぱなものを書いただけでした。&lt;/p&gt;
+
+&lt;h3 id=&#34;レビューア-校正&#34;&gt;レビューア＆校正&lt;/h3&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;ところで、うちで出す本を読んでくれる人いないですか？「簡単JavaScript AST入門」って同人誌なんですが、現時点でのPDFを送ります。感想 (難しい・簡単・わかりやすい・わかりにくい) をいただければ嬉しいです！！！！&lt;/p&gt;&amp;mdash; 俺たちの戦い(原稿)はこれからだ (@erukiti) &lt;a href=&#34;https://twitter.com/erukiti/status/918481188947353601?ref_src=twsrc%5Etfw&#34;&gt;2017年10月12日&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;思いつきでレビューアを募集したところ応募をいただけまして、5人の方の応募がありました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/MegaBlackLabel&#34;&gt;れいな@底なし沼の魔女&lt;/a&gt; さん&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/akameco&#34;&gt;あかめ@無職.js&lt;/a&gt; さん&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/fushiroyama&#34;&gt;父&lt;/a&gt; さん&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/matsudotsuyoshi&#34;&gt;まつど&lt;/a&gt; さん&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ymnd&#34;&gt;やまんだー&lt;/a&gt; さん&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;あかめさんは特に実際にBabelを触ってる人だったので、その方面でのご指摘を多くいただきました。あとの方はASTについて詳しくない視点での指摘で、どちらもすごく助かりました。レビューのおかげで本の出来が圧倒的に良くなりました。&lt;/p&gt;
+
+&lt;p&gt;10/17の&lt;a href=&#34;https://techbook-meetup.connpass.com/event/67604/&#34;&gt;もくもく執筆会☆出張版 REV.3 @ 東京秋葉原 〜技術系同人誌／商業誌・発表資料・ブログ〜&lt;/a&gt;では、いつもお世話になってるImpress R&amp;amp;Dの&lt;a href=&#34;https://twitter.com/kurakake&#34;&gt;山城&lt;/a&gt;さん直々に校正をしていただけて完成です。&lt;/p&gt;
+
+&lt;p&gt;誰かにレビューしてもらうのはかなり有効ですね！&lt;/p&gt;
+
+&lt;h3 id=&#34;締め切り駆動執筆&#34;&gt;締め切り駆動執筆&lt;/h3&gt;
+
+&lt;p&gt;もともと僕は何かやり出したらそればっかりというタイプかつ、0-&amp;gt;1(スクラッチ)に特化しすぎてる人間というのがかみ合って、締め切り駆動執筆がうまく成功しました。ただ、このモードはうまくハマっただけなので、うまくハマらなかったら原稿を落とす可能性もありました。でも、前回までの経験と、事前の技術調査などから、まぁ落とす事はないだろうなという直感的な確信はありました。&lt;/p&gt;
+
+&lt;p&gt;ちなみにこのモード、せいぜい一週間が限度ですね。それ以上は何か削っちゃいけない領域の何かを削る感覚がありましたｗ。&lt;/p&gt;
+
+&lt;p&gt;フリーという名の半ニートなので執筆に集中できるんですが、気分転換にインク塗り遊びやラノベを堪能していたのでいちおう人間的な生活は最低限維持出来ていました。&lt;/p&gt;
+
+&lt;h3 id=&#34;反省点&#34;&gt;反省点&lt;/h3&gt;
+
+&lt;p&gt;ほんとはもっと書きたいことありました。もっとリファレンスとして強化したり、もっともっと深掘りしたり。まぁそこらへんを突き詰めたヤツがきっと年内には出せると思います。&lt;/p&gt;
+
+&lt;p&gt;次こそはもう少しでも余裕のある執筆スケジュールにしたいです！！！！！&lt;/p&gt;
+
+&lt;h2 id=&#34;ノウハウの話&#34;&gt;ノウハウの話&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/erukiti/items/6b7e85f760476a997161&#34;&gt;技術書同人誌を書きましょう！ - Qiita&lt;/a&gt;でも書きましたが、早めに一冊の本を書き上げましょう。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;印刷できるPDFをとにかく一番早く作っておく (印刷までのフローを体験する)&lt;/li&gt;
+&lt;li&gt;表紙はなるべく早めに作る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これをやっておかないと、土壇場になって「あれ？フォント埋め込みって何？本のサイズってA5?B5?そしてそれは何cmで何ピクセル？」みたいなところにめちゃくちゃ困る事になります。なので、これらの作業は最低でも締め切り一週間前には終わらせましょう。初挑戦の人は、「むしろ一番最初にやれ」です。&lt;/p&gt;
+
+&lt;h3 id=&#34;タイトルの付け方&#34;&gt;タイトルの付け方&lt;/h3&gt;
+
+&lt;p&gt;技術書典2で頒布したModern JavaScriptですが、編集者の山城さんに「その名前だとわかりにくい」と言われました。「モダン」が何を指すかが人によって違うのとフックが無い点が問題です。&lt;/p&gt;
+
+&lt;p&gt;タイトルはフックが重要です。ターゲットは誰なのか。どういう人の心の琴線に響くのか。タイトルだけでダメなら帯を付けて補足を書く、ポップにでかでかと書く、呼び込みを頑張る、などなど必要です。&lt;/p&gt;
+
+&lt;p&gt;また表紙についても絵が綺麗なら売れるのはコミケの話です。技術書典は技術書を求めて来ているので絵が綺麗だったり可愛かったりするのは、そこまで優先順位高くありません。むしろその本にどういう情熱を注いでるのか、どういう人に読んで欲しいのかというメッセージ性の方が重要だと思います。&lt;/p&gt;
+
+&lt;p&gt;ぱっと見て「何の本」なのか。「どういうサークルなのか」をいかにして理解してもらうかです。&lt;/p&gt;
+
+&lt;h3 id=&#34;準備物&#34;&gt;準備物&lt;/h3&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; テーブルクロス&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ポスタースタンド&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ポスタースタンドの重し&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ブックスタンド&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 付箋&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ボールペン&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; マッキー&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; はさみ&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ガムテープ&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; マスキングテープ (養生テープ)&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; クリアファイル&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; お金取り扱う袋&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 名札 (ステッカーで？)&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ポップ&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 既刊の見本誌&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ゴミ袋 (ゴミの量によってはコンビニ袋でOK)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この中でガムテープだけ忘れてて、熊谷さんにお借りしました。(その節はありがとうございました)&lt;/p&gt;
+
+&lt;h3 id=&#34;本を一冊書き上げるという経験&#34;&gt;本を一冊書き上げるという経験&lt;/h3&gt;
+
+&lt;p&gt;単著で一冊本を書き上げるというのは、おそらく未経験者の人が考えるよりも遙かに大きなパラダイムシフトになります。実際に編集者の人の認識でも、一冊本を書き上げた人というのは最低限の必要条件だそうです。(書き上げてない人、構想だけの人はスタート地点に立てていません)&lt;/p&gt;
+
+&lt;p&gt;僕は最初のElectron本(電子のみ)と次のModern JavaScript(紙に印刷した)で積んだ経験値というのはかなり大きな自己資産だと感じています。もちろんその後の商業版や今回のAST本もそうなんですが。&lt;/p&gt;
+
+&lt;p&gt;プログラミングだけをするのと、ブログにそのノウハウをまとめて記事にするというのは違うものだというのは多くの人が知っていると思います。本を一冊書くという経験はとても大きなもので、しかも同人誌なら誰でも参加できるのです。サークルとして受からなくても、知り合いに委託したりできるでしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/erukiti/techbook-meetup-lets-writing-tech-book-doujinshi&#34;&gt;アウトプットのメリット 僕が技術同人誌執筆をお勧めする理由&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8b1a266be2764715a49db59e941e6716&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;執筆会を活用しましょう&#34;&gt;執筆会を活用しましょう&lt;/h3&gt;
+
+&lt;p&gt;どんなに経験を積んでもわからない事なんてよくあるのです。ましや経験値の低い人はわからない事だらけです (僕もそうでした)。ならば執筆会に参加しましょう。相談できる人が大量にいるというとても希有な場です。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://techbookfest.connpass.com/&#34;&gt;技術書典 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://techbook-meetup.connpass.com/&#34;&gt;もくもく執筆会 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この二系統が、執筆会としては有名なところですがどちらも良い会です。&lt;/p&gt;
+
+&lt;p&gt;もくもく執筆会の方は、別に同人誌や商業誌を書くだけじゃありません。ブログやLTの発表資料だけ作ってても良いのです。ブログを書きながら同人誌について、相談をするというは、いいスタート地点ではないでしょうか。しかも、編集者の人、同人誌・商業誌を書いてる人が何人も参加しているので相談し放題ですよ！&lt;/p&gt;
+
+&lt;p&gt;次回は横浜で11/23ですが、&lt;a href=&#34;https://techbook-meetup.connpass.com/event/69870/&#34;&gt;もくもく執筆会 REV.4 @ 横浜 〜技術系同人誌／商業誌・発表資料・ブログ〜 - connpass&lt;/a&gt;で、アトラシアンさんのイベントスペースをお借りして開催されます。是非参加してみましょう！&lt;/p&gt;
+
+&lt;h3 id=&#34;技術書典というイベントの性質を理解する&#34;&gt;技術書典というイベントの性質を理解する&lt;/h3&gt;
+
+&lt;p&gt;技術書典は「技術書を目的にした」人のオンリーイベントです。コミケや超技術書典はそれ以外の人も来場しますが、少なくとも技術書典はそれ以外の人はまず来ません。コミケとは完全に戦い方が違うものです。&lt;/p&gt;
+
+&lt;h2 id=&#34;次回&#34;&gt;次回&lt;/h2&gt;
+
+&lt;p&gt;次回は&lt;a href=&#34;https://twitter.com/takashiski&#34;&gt;たかしすきー@&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt; 技典3 か04 @takashiski&lt;/a&gt;さんと合同参加になると思います。彼の相方が参加しなくなってソロだとつらいなーという話だったので。僕としてもワンオペじゃなくなるととてもありがたいのです！&lt;/p&gt;
+
+&lt;p&gt;僕の考え方と極端にコンフリクトしない方でしたら，合同誌や、むしろ東京ラビットハウスとして本を出したいという奇特な人いましたら、是非&lt;a href=&#34;https://twitter.com/erukiti&#34;&gt;@erukiti&lt;/a&gt;までお声がけください。&lt;/p&gt;
+
+&lt;p&gt;ちなみに次の本はまだ未定です。フレンズと学ぶモナド本書きたい気持ちも少し残ってます。ただまぁおそらく次回もJavaScript/TypeScript (あるいはFlow)にまつわる何かだと思います。もしかしたら「他の言語利用者向けのJS手引き」とか書いてるかもしれませんね！&lt;/p&gt;
+
+&lt;p&gt;技術季報のJavaScript特化みたいな本を定期的に出したい気持ちも少しあります。JSはほんといい子なんです！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>技術書典2でModern JavaScriptという本を頒布しました</title>
