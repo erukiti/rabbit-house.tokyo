@@ -2,12 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 on 東京ラビットハウス</title>
-    <link>https://rabbit-house.tokyo/tags/0/index.xml</link>
+    <link>https://rabbit-house.tokyo/tags/0/</link>
     <description>Recent content in 0 on 東京ラビットハウス</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>Copyright (c) 2017, Tokyo Rabbit House; all rights reserved.</copyright>
-    <atom:link href="https://rabbit-house.tokyo/tags/0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2019 13:19:45 +0900</lastBuildDate>
+    
+	<atom:link href="https://rabbit-house.tokyo/tags/0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Effective React Hooksサポートページ</title>
+      <link>https://rabbit-house.tokyo/books/effective-react-hooks/</link>
+      <pubDate>Fri, 26 Jul 2019 13:19:45 +0900</pubDate>
+      
+      <guid>https://rabbit-house.tokyo/books/effective-react-hooks/</guid>
+      <description>2019/7/27 初版発行 (技書博) 2019/7/29 第5章に追記。72ページにあった珍しい組み版バグも修正</description>
+    </item>
     
     <item>
       <title>Modern JavaScript</title>
@@ -15,11 +26,7 @@
       <pubDate>Sat, 08 Apr 2017 13:19:45 +0900</pubDate>
       
       <guid>https://rabbit-house.tokyo/books/modern-javascript/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;2017/4/9 初版発行 (技術書典2)&lt;/li&gt;
-&lt;li&gt;2017/8/11 商業版として加筆・修正・校正したものを、&lt;a href=&#34;http://amzn.to/2vSjG18&#34;&gt;最新JavaScript開発～ES2017対応モダンプログラミング (技術書典シリーズ（NextPublishing）) &lt;/a&gt;という形で出しました。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>2017/4/9 初版発行 (技術書典2) 2017/8/11 商業版として加筆・修正・校正したものを、最新JavaScript開発～ES2017対応モダンプログラミング (技術書</description>
     </item>
     
   </channel>
