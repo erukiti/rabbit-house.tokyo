@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>東京ラビットハウス</title>
@@ -6,10 +6,19 @@
     <description>Recent content on 東京ラビットハウス</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jul 2019 13:19:45 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 03:15:20 +0900</lastBuildDate>
     
 	<atom:link href="https://rabbit-house.tokyo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>実践プロトタイピングサポートページ</title>
+      <link>https://rabbit-house.tokyo/books/proto-book/</link>
+      <pubDate>Sat, 12 Sep 2020 03:15:20 +0900</pubDate>
+      
+      <guid>https://rabbit-house.tokyo/books/proto-book/</guid>
+      <description>2020/09/12 初版発行 (技術書典9) レイアウトミスや校正などがまだ残っているため、アップデート中です。9/14までには完成させて、物理本の入稿も行います</description>
+    </item>
     
     <item>
       <title>Effective React Hooksサポートページ</title>

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="">
 <meta name="description" content="">
-<meta name="generator" content="Hugo 0.55.6" />
+<meta name="generator" content="Hugo 0.72.0" />
 <title>東京ラビットハウス</title>
 <link rel="shortcut icon" href="https://rabbit-house.tokyo/">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
@@ -16,42 +16,25 @@
 
 <div class="column">
     <div class="content">
-        
-
-<h2 id="簡単javascript-ast入門">簡単JavaScript AST入門</h2>
-
+        <h2 id="簡単javascript-ast入門">簡単JavaScript AST入門</h2>
 <ul>
 <li>2017/10/24 <a href="/ast-book-sample.pdf">試供用PDF最新版</a>を配布しています。第三章まで載っています。</li>
 <li>2017/10/22 第1版 技術書典3 頒布 (80P, 1000円)</li>
 </ul>
-
 <p>誰か売り子を手伝っていただけないでしょうか？一日中ブースにいるとトイレにいくタイミングが無くてしんどいので、お手伝いできる方いたらTwitter <a href="https://twitter.com/erukiti">@erukiti</a> にでもご連絡ください。</p>
-
 <p>あと前回の経験上おそい時間だと売り切れ完売の可能性が高そうなので、取り置き希望の人はこれまた Twitter などでご連絡ください。</p>
-
 <h3 id="コンセプト">コンセプト</h3>
-
 <p>この本は JavaScript AST の入門書です。AST とはソースコードを扱いやすいように加工されたデータ構造のことです。AST を操作するとソースコードの変更・削除・挿入や解析ができます。</p>
-
 <p>JavaScript においては AST は難しいものではありません。AST を使ってお手軽に JavaScript をハックできるツールを作ってみましょう。</p>
-
 <h3 id="対象読者">対象読者</h3>
-
 <p>簡単！専門知識不要！</p>
-
 <p>自動化を進めたい人、JavaScriptをハックするようなツールを書きたい、Babelプラグインを作りたいという人向けです。</p>
-
 <p>あまり高度なことは書かないようにしています。コンパイラ関係の本はゴツいものばかりなので、お手軽な同人誌として書いてみたかったのが筆者のモチベーションです。</p>
-
 <h3 id="javascript-ast-がなぜ簡単なのか">JavaScript AST がなぜ簡単なのか？</h3>
-
 <p>本来の AST はコンパイラの内部表現に過ぎないため言語利用者の大半には縁のないものですが、JavaScript は他の処理系とは違う歴史を持っているため AST が身近です。それはブラウザの互換性との戦いの歴史から、トランスパイル、つまりソースコードをソースコードに変換するのが一般的だという特殊な事情です。トランスパイルで有名な Babel は、ECMASCript2017 (JavaScriptの最新言語仕様) などをウェブブラウザ上で問題なく動作するように変換します。AST はその過程で大活躍するのです。プラグインで自由に AST を操作できますし、Babel はトランスパイラというツールというだけではなく、便利なライブラリ群でもあるのです。</p>
-
 <p>Babel 以外にも有力な AST エコシステムがありますが、もともとESTreeという標準仕様があるため、Babelに限らずJavaScript AST エコシステムでは知識や経験が使い回しできます。そういった手厚い AST のエコシステムのおかげで、他の言語では考えられないくらい簡単に AST を使えて、ソースコードの解析・加工などができてしまうのです。</p>
-
 <p>ところが、AST というと「難しい」という印象をお持ちの方も多いのでは無いでしょうか？AST はとても可能性を秘めているというのに、ほとんどの JavaScript プログラマが AST を触ったことがないのです。分厚いコンパイラの本を読む必要もありません。是非本書を読んでカジュアルにJavaScriptをハックしてみましょう。</p>
-
-<p><img src="/img/ast-book-cover.jpg" alt="" /></p>
+<p><img src="/img/ast-book-cover.jpg" alt=""></p>
 
     </div>
 </div>
