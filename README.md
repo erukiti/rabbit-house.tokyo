@@ -24,7 +24,19 @@ make build
 
 生成先は `.cache/site/` です。CSSはHugoで圧縮し、ファイル名にハッシュを付けて配信します。既存の公開用 `public` Gitリンクには書き込みません。
 
-本番公開時は生成したファイルを `gh-pages` ブランチへ反映します。`static/CNAME` と各PDF・ZIPも生成先へコピーされます。`make build` 自体は公開やGitへのpushを行いません。
+`static/CNAME` と各PDF・ZIPも生成先へコピーされます。`make build` 自体は公開やGitへのpushを行いません。
+
+## 公開
+
+ソースの変更をコミットしてから、次のコマンドを実行してください。
+
+```sh
+make publish
+```
+
+ビルド後、`origin/gh-pages` の一時的な作業コピーへ生成物をコピーし、コミット・pushします。古い生成物は削除し、GitHub Pages用の `.nojekyll` を追加します。公開内容に差分がなければコミット・pushは行いません。作業コピーは終了時に削除します。
+
+`origin` へのpush権限と `rsync` が必要です。push後はGitHub Pagesが自動で公開します。
 
 ## 編集箇所
 

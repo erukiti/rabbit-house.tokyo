@@ -1,6 +1,6 @@
 HUGO ?= $(if $(wildcard .cache/hugo/hugo),.cache/hugo/hugo,hugo)
 
-.PHONY: check-hugo build preview
+.PHONY: check-hugo build preview publish
 
 check-hugo:
 	@command -v "$(HUGO)" >/dev/null 2>&1 || { printf '%s\n' 'Hugoをインストールしてください。手順はREADME.mdをご覧ください。'; exit 1; }
@@ -15,3 +15,6 @@ build: check-hugo
 
 preview: check-hugo
 	"$(HUGO)" server --disableFastRender --bind 127.0.0.1 --destination .cache/preview --cleanDestinationDir
+
+publish: build
+	sh scripts/publish.sh
