@@ -6,5 +6,5 @@ tags = []
 
 +++
 
-* Twitter: [https://twitter.com/erukiti](@erukiti)
+* X (Twitter): [https://x.com/erukiti](@erukiti)
 * メール: erukiti<!-- -->+trb@<!-- -->gmail.com

@@ -1,0 +1,10 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+{{ hugo.Generator }}
+<title>{{ .Site.Title }}</title>
+{{ with resources.Get "css/site.css" | resources.Minify | resources.Fingerprint "sha384" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}

@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="site-width header-inner">
+    <a class="site-title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="nav-list">
+        {{ $page := . }}
+        {{ range sort .Site.Params.menu "weight" }}
+          {{ $exact := eq $page.RelPermalink (.url | relURL) }}
+          {{ $current := or $exact (and (ne $page.Section "") (eq (printf "/%s/" $page.Section | relURL) (.url | relURL))) }}
+          <li>
+            <a class="nav-link" href="{{ .url | relURL }}"{{ if $current }} aria-current="{{ if $exact }}page{{ else }}true{{ end }}"{{ end }}>{{ .name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

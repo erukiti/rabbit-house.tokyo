@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="home">
+    <img class="home-logo" src="{{ .Site.Params.logo | relURL }}" alt="" width="2220" height="709" fetchpriority="high">
+    <div class="home-intro">
+      <h1>{{ .Site.Title }}</h1>
+      <p>東京ラビットハウスです。</p>
+      <div class="home-links">
+        <a class="button" href="{{ "books/" | relURL }}">同人誌・書籍を見る</a>
+        <a class="text-link" href="{{ "blog/" | relURL }}">ブログを読む</a>
+      </div>
+    </div>
+  </div>
+{{ end }}
